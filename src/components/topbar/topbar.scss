@@ -1,0 +1,48 @@
+@import "../../global.scss";
+
+.topbar{
+    width: 100%;
+    height: 70px;    
+    color: lightcoral;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+    .wrapper {
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .left{
+
+            .logo{
+                font-size: 30px;
+                font-weight: 700;
+                text-decoration: none;
+                color: inherit;
+            }
+
+        }
+
+        .right{
+
+
+            .btn {
+                border: none;
+                color: inherit;
+                background-color: inherit;
+                padding: 10px 20px;
+                font-size: 20px;
+                cursor: pointer;
+                display: inline-block;
+                border-radius: 25px;
+              }
+              
+              /* On mouse-over */
+              .btn:hover {background: $mainColor;}
+        }
+    }
+
+}
